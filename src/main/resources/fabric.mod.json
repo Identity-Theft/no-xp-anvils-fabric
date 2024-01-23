@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "no-repair-cost",
+	"version": "${version}",
+	"name": "no-repair-cost",
+	"description": "Removes the XP cost for repairing and renaming tools and gear",
+	"authors": [
+		"Identity Theft"
+	],
+	"contact": {
+		"homepage": "https://identity-theft.github.io/",
+		"sources": "https://github.com/Identity-Theft/no-repair-cost"
+	},
+	"license": "MIT",
+	"icon": "assets/no-repair-cost/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "identitytheft.norepaircost.NoRepairCost"
+		]
+	},
+	"mixins": [
+		"no-repair-cost.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
