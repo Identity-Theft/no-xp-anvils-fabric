@@ -22,7 +22,7 @@ loom {
     splitEnvironmentSourceSets()
 
 	mods {
-		"no-repair-cost" {
+		"no_xp_anvils" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
